@@ -23,7 +23,7 @@ jobs:
 
     - name: npm install, build, and test
       run: |
-        npm install
+       
         npm install -g @angular/cli
         ng install -g @angular/material
         ng build --prod 
